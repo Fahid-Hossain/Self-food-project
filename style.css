@@ -71,3 +71,35 @@ section{
 /* border:2px solid tomato; */
 
 }
+
+       /* -------------about info------------------- */
+
+#about-info{
+    /* border: 3px solid red; */
+    margin-top:120px;
+}
+.about{
+    border-left: 2px solid tomato;
+    width: 45%;
+    background: url("images/shapes/Frame\ 58.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about-para{
+    padding:130px 55px;
+}
+#about-para h2{
+    color:rgb(82, 77, 77);
+    font-size: 2rem;
+}
+#about-para p{
+    font-size: 1.1rem;
+    margin-top:30px;
+    line-height: 30px;
+}
+#about-img{
+    padding-left: 40px;
+}
+#owner-about-img{
+    width:300px;
+}
