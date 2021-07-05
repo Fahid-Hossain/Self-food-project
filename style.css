@@ -139,9 +139,13 @@ section{
     margin-top: 20px;
 
 }
+.food-review h2{
+    margin-left: 80px;
+    margin-top: 20px;
+}
 
 .food-review p{
-    padding-left: 15px;
+    padding: 0px 5px 15px 15px ;
 }
 
 footer{
