@@ -143,3 +143,17 @@ section{
 .food-review p{
     padding-left: 15px;
 }
+
+footer{
+    text-align: center;
+    margin:50px 0px 0px 0px;
+    background: #FFEEEE;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+footer h2{
+    color:rgb(82, 77, 77);
+    padding-top: 40px;
+}
