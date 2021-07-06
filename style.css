@@ -2,12 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }   
 
        /* --------------global value---------------- */
 
 body{
     font-family: 'Ubuntu', sans-serif;
+ 
 }
 h1{
     color:rgb(82, 77, 77);
@@ -42,6 +44,31 @@ section{
  /* ---------navbar section-------------- */
 #navbar{
     height: 100px;
+    border-bottom:1px solid tomato;
+    display: flex;
+    justify-content: space-around;
+  align-items: center;
+}
+#navbar h1{
+    font-family: 'Pacifico', cursive;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+
+}
+#navbar ul li{
+    margin-left:16px;
+    padding:5px 21px;
+    background:linear-gradient(to right, tomato,rgb(226, 163, 174));
+    border-radius: 6px;
+}
+#navbar ul li a{
+    text-decoration: none;
+    /* border: 2px solid red; */
+    font-size: 14px;
+    color: white;
+    
 }
 
 /* -------------Welcome Section---------- */
@@ -147,6 +174,45 @@ section{
 .food-review p{
     padding: 0px 5px 15px 15px ;
 }
+
+/* ---------------feedback section ----------------------- */
+
+#feedback-us{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background: url("images/shapes/Frame\ 58.jpg");
+    background-size: cover;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+input{
+    margin-bottom:20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
+
+input[type="button"]{
+    cursor: pointer;
+    background:linear-gradient(to right,orange,tomato);
+    color:white;
+    font-size: 16px;
+    padding:5px 23px;
+    margin-top:5px;
+    border: none;
+}
+/* ----------------footer section --------------- */
+
 
 footer{
     text-align: center;
