@@ -183,8 +183,12 @@ form{
     flex-direction: column;
     width: 100%;
     align-items: center;
-    margin-top: 50px;
-    padding-top: 40px;
+    margin-top: 45px;
+    padding-top: 10px;
+}
+
+form h2{
+    margin-bottom: 10px;
 }
 input{
     margin-bottom:20px;
@@ -203,6 +207,12 @@ input[type="button"]{
     margin-top:5px;
     border: none;
 }
+
+textarea{
+    cursor:auto;
+    width: 60%;
+}
+
 /* ----------------footer section --------------- */
 
 
